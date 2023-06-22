@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Save the Universe</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="mainWindow">
+        <div id="alienWindow">
+            <div id="alienContainer">
+                <div class="alienElement" id="alienElementOne"></div>
+                <div class="alienElement" id="alienElementTwo"></div>
+                <div class="alienElement" id="alienElementThree"></div>
+                <div class="alienElement" id="alienElementFour"></div>
+                <div class="alienElement" id="alienElementFive"></div>
+                <div class="alienElement" id="alienElementSix"></div>
+            </div>
+        </div>
+        <div id="statusMessage">PLACEHOLDER</div>
+        <div id="playerWindow">
+            <div class="playerElement" id="playerElement"></div>
+        </div>
+        <div id="commandWindow">
+            <div id="buttonWindow">
+                <button type="button" id="attackButton" onclick="attackOnClick()">Attack</button>
+                <button type="button" id="retreatButton" onclick="retreatButtonClicked()">Retreat</button>
+                <button type="button" id="resetButton" onclick="window.location.reload()">Reset</button>
+            </div>
+            <div id="statusWindow">
+                <div id="healthWindow">
+                    <h3 class="statusHeader">Health</h3>
+                    <h3 id="playerHealth"></h3>
+                </div>
+                <div id="targetWindow">
+                    <h3 class="statusHeader">Current Target</h3>
+                    <h3 id="playerTarget"></h3>
+                </div>
+                <div id="enemyHealthWindow">
+                    <h3 class="statusHeader">Enemy Health</h3>
+                    <h3 id="enemyHealthDisplay"></h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
