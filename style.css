@@ -41,7 +41,7 @@ body{
     width: 100%;
     height: 100%;
     margin: 1%;
-    background-image: url(/images/Battlecruiser-Base.png);
+    background-image: url(./images/Battlecruiser-Base.png);
     background-position: center center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -59,7 +59,7 @@ body{
     min-height: 150px;
     width: 100%;
     height: 100%;
-    background-image: url(/images/Main-Ship-Full-Health.png);
+    background-image: url(./images/Main-Ship-Full-Health.png);
     background-position: center center;
     background-size: contain;
     background-repeat: no-repeat;
