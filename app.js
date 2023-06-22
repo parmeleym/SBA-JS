@@ -233,12 +233,12 @@ function fadeOutAnimation(el, int){
 }
 
 function alienExplode(alien){
-    alien.style.backgroundImage = "url('/images/BattleCruiser.gif')";
+    alien.style.backgroundImage = "url('./images/BattleCruiser.gif')";
     fadeOutAnimation(alien, 24);
 }
 
 function playerExplode(){
-    playerElement.style.backgroundImage = "url('/images/Main-Ship-Damaged.gif')";
+    playerElement.style.backgroundImage = "url('./images/Main-Ship-Damaged.gif')";
     fadeOutAnimation(playerElement, 24);
 }
 
